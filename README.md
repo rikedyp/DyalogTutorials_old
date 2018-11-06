@@ -9,4 +9,4 @@ README.md
 # This Project
 This is currently a placeholder or central hub for new user tutorials and other materials promoting the Dyalog dialect of APL.  
 These currently consist of:
-- [http://tryapl.org](tryAPL)
+- [TryAPL](http://tryAPL.org)
