@@ -11,4 +11,4 @@ This is currently a placeholder or central hub for new user tutorials and other 
 These currently consist of:
 - [TryAPL](http://tryAPL.org)
 - [Tutorial](https://tutorial.dyalog.com/)
-- [TutorialWS](tutorialws)
+- [TutorialWS](/TutorialWS)
