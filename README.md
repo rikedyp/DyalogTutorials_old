@@ -10,3 +10,5 @@ README.md
 This is currently a placeholder or central hub for new user tutorials and other materials promoting the Dyalog dialect of APL.  
 These currently consist of:
 - [TryAPL](http://tryAPL.org)
+- [Tutorial](https://tutorial.dyalog.com/)
+- [TutorialWS](tutorialws)
