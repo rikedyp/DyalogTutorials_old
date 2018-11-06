@@ -1,0 +1,10 @@
+{'PROBLEMS':{
+	1: 'Type ''1+1'' and press Enter...'
+	}
+}
+{'RESPONSES':{
+	'PERFECT': ['Well done you!', 'Yessss!!!'],
+	'OK': ['Yeah, or you could do that I suppose.', 'Sure...'],
+	'WRONG': ['Hmmmm...', 'Nope.']
+	}
+}

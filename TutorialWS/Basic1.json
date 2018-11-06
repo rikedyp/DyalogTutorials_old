@@ -1,0 +1,20 @@
+{
+"PROMPTS":
+    [   "Type 1+1 and press Enter...",
+        "1 2 3 4 5 A B C"
+    ],
+"EXPECTS":
+    [   "'1\\+1' '^.*[-÷+×].*$'",
+        "1 2 3 4 5 A B C"
+    ],
+"RESPONSES":
+    {
+        "OK":       ["Yeah, or you could do that I suppose.",
+                    "Sure..."],
+        "PERFECT":  ["Well done you!",
+                    "Yessss!!!"],
+        "WRONG":    ["Hmmmm...",
+                    "Nope.",
+                    "Try again..."]
+    }
+}

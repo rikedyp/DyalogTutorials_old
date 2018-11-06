@@ -1,0 +1,34 @@
+From TutorialBase framework
+ - Text files or JSON
+	- Problems
+		- PERFECT, OK, WRONG responses
+	
+
+Basic functions for APLishness (array programming)
+3 basic examples
+]box on, ]box off
+monadic, dyadic
+Right part of any fn is anything to the right of fn (and brackety things)
+Anything to the right of function is input of that function
+
+TODO: Compare Language bar examples to TryAPL examples
+
+⎕← best practice
+⍞
+
+Windows crtl-shift backspace/enter history scroll
+
+Linux its winkey-shift up/down
+
+f← (0@3)
+
+Scalar functions
++ → ⌊, logic, comparison
+
+Colors
+
+
+]save start ./
+
+
+Click and drag code
