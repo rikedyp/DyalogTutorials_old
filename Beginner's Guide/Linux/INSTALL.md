@@ -5,7 +5,7 @@ PDF of [complete installation and configuration instructions](http://docs.dyalog
 * [Deb](#installing-under-debian-based-distributions)
 * [RPM](#installing-under-rpm-based-distributions)
 * [AIX](#installing-under-aix)
-* [Start Dyalog](#start dyalog)
+* [Start Dyalog](#start-dyalog)
 
 ### Installing under Debian based distributions
 * ```$ unzip linux_64_*_unicode.zip```
