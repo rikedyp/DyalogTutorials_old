@@ -26,6 +26,6 @@ Many distributions allow unzipping and installing via the GUI
 ### Start Dyalog  
 In GUI desktop environments, Dyalog should appear in the applications menu.  This will start a session in [RIDE](https://github.com/Dyalog/ride)
 Deb and RPM allow starting from the terminal:  
-```$ dyalog```
+```$ dyalog```  
 On all platforms, dyalog can be started from the terminal:  
 ```$ /opt/mdyalog/17.0/64/unicode/p6/mapl```  
