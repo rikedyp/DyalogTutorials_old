@@ -1,8 +1,11 @@
-README.md
-
 # Table of Contents
-1. [This Project](#this-project)
-2. [ToDo](#todo)
+1. [QuickStart](#quickstart)
+2. [This Project](#this-project)
+3. [ToDo](#todo)
+
+# QuickStart
+Download [Dyalog APL](https://www.dyalog.com/download-zone.htm) (Free for personal / non-commercial use)  
+Follow the instructions to install Dyalog for [MacOS](http://docs.dyalog.com/17.0/Dyalog%20for%20macOS%20Installation%20and%20Configuration%20Guide.pdf), [Windows](http://docs.dyalog.com/17.0/Dyalog%20for%20Microsoft%20Windows%20Installation%20and%20Configuration%20Guide.pdf) or [Linux](http://docs.dyalog.com/17.0/Dyalog%20for%20UNIX%20Installation%20and%20Configuration%20Guide.pdf).  
 
 # This Project
 This is currently a placeholder or central hub for new user tutorials and other materials promoting the Dyalog dialect of APL.  
