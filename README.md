@@ -10,6 +10,7 @@ Follow the instructions to install Dyalog for [MacOS](http://docs.dyalog.com/17.
 # This Project
 This is currently a placeholder or central hub for new user tutorials and other materials promoting the Dyalog dialect of APL.  
 These currently consist of:
+- [The Beginner's Guide to Dyalog APL](/Beginner's\ Guide)
 - [TryAPL](http://tryAPL.org)
 - [Tutorial](https://tutorial.dyalog.com/)
 - [TutorialWS](/TutorialWS)
