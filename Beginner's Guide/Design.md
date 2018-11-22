@@ -38,6 +38,21 @@ How do we find the fraction from a decimal number?
  c,'÷',d
 ∇
 ```
+Extension - mixed fractions
+```APL
+∇frac n;a;m;b;d;c
+ a←1|n
+ m←10*⌊/⍸0=1|(10*⍳7)×a
+ d←b[c←⌊/⍸0=1|b←(⍳m)÷a]
+ :If 1>n
+     c,'÷',d
+ :ElseIf 1<n
+     (⌊n),'+ (',c,'÷',d')'
+ :Else
+     'dunno'
+ :EndIf
+∇
+```
 ``` ⍳10000000``` is the largest before WS FULL (default settings)  
 CAUTION: frac ○1 suggests that π is rational!
 
