@@ -12,7 +12,7 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
 
 ### Examples
 Simple examples taken from referenced sources
-- Alphabetise [1](#1-iverson-ke--1981-ip-sharp-associates)
+- Alphabetise [[1]](#1-iverson-ke--1981-ip-sharp-associates)
 ```APL
 NAMES←↑'SMITH, R.J.' 'JONES, C.' 'ABEL, H.L.' 'SMITH, R.A.'
       A←(⎕A), ' ,.'
