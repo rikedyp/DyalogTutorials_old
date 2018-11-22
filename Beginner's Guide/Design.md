@@ -38,11 +38,11 @@ How do we find the fraction from a decimal number?
  c,'÷',d
 ∇
 ```
-Extension - mixed fractions
+Extension - robust mixed fractions
 ```APL
 ∇frac n;a;m;b;d;c
  a←1|n
- m←10*⌊/⍸0=1|(10*⍳7)×a
+ m←m←10*7⌊⌊/⍸0=1|(10*⍳7)×a
  d←b[c←⌊/⍸0=1|b←(⍳m)÷a]
  :If 1>n
      c,'÷',d
