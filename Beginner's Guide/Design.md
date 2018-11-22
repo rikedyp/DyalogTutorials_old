@@ -10,8 +10,25 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
 - Purpose and scope
 - How to navigate
 
-### Examples
-Simple examples taken from referenced sources
+### Exercises
+Simple exercises
+- Quick Maths
+```APL
+      2+2
+4
+      2×2
+4
+      2*2
+4
+      1 2 3 + 4 5 6
+5 7 9
+      1 2 3 × 4 5 6
+4 10 18
+      1 2 3 - 4 5 6
+¯3 ¯3 ¯3
+      1 2 3 ÷ 4 5 6
+0.25 0.4 0.5
+```
 - Alphabetise [[1]](#1-iverson-ke--1981-ip-sharp-associates)
 ```APL
 NAMES←↑'SMITH, R.J.' 'JONES, C.' 'ABEL, H.L.' 'SMITH, R.A.'
