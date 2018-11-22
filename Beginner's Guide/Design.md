@@ -33,7 +33,8 @@ Simple exercises
 How do we find the fraction from a decimal number?
 ```APL
 ∇frac a
- d←b[c←⌊/⍸0=1|b←(⍳10)÷a]
+ m←10*⌊/⍸0=1|(10*⍳7)×a
+ d←b[c←⌊/⍸0=1|b←(⍳m)÷a]
  c,'÷',d
 ∇
 ```
