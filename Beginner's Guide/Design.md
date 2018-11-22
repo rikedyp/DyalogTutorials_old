@@ -56,7 +56,7 @@ Extension - robust mixed fractions
 ``` ⍳10000000``` is the largest before WS FULL (default settings)  
 CAUTION: frac ○1, *1 suggests that π, e are rational!
 
-Train
+Train 🚂
 ```APL
 (1∧⊢,÷)
 ```
