@@ -29,6 +29,14 @@ Simple exercises
       1 2 3 ÷ 4 5 6
 0.25 0.4 0.5
 ```
+- Fraction from decimal
+How do we find the fraction from a decimal number?
+```APL
+∇frac a
+ d←b[c←⌊/⍸0=1|b←(⍳10)÷a]
+ c,'÷',d
+∇
+```
 - Alphabetise [[1]](#1-iverson-ke--1981-ip-sharp-associates)
 ```APL
 NAMES←↑'SMITH, R.J.' 'JONES, C.' 'ABEL, H.L.' 'SMITH, R.A.'
