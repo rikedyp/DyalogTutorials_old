@@ -27,4 +27,4 @@ SMITH, R.A.
 SMITH, R.J.
 ```
 ### References
-##### 1. Iverson K.E.         A Working Introduction to APL © 1981 I.P. Sharp Associates
+##### 1. Iverson K.E. - A Working Introduction to APL © 1981 I.P. Sharp Associates
