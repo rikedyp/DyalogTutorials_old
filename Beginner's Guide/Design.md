@@ -56,6 +56,9 @@ Extension - robust mixed fractions
 ``` ⍳10000000``` is the largest before WS FULL (default settings)  
 CAUTION: frac ○1, *1 suggests that π, e are rational!
 
+Tacit train (1∧⊢,÷)
+NB: Depends on ⎕CT, ⎕DCT and ⎕FR
+
 - Alphabetise [[1]](#1-iverson-ke--1981-ip-sharp-associates)
 ```APL
 NAMES←↑'SMITH, R.J.' 'JONES, C.' 'ABEL, H.L.' 'SMITH, R.A.'
