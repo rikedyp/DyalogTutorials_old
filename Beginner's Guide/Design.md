@@ -54,7 +54,7 @@ Extension - robust mixed fractions
 ∇
 ```
 ``` ⍳10000000``` is the largest before WS FULL (default settings)  
-CAUTION: frac ○1 suggests that π is rational!
+CAUTION: frac ○1, *1 suggests that π, e are rational!
 
 - Alphabetise [[1]](#1-iverson-ke--1981-ip-sharp-associates)
 ```APL
