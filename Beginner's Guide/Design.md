@@ -37,6 +37,9 @@ How do we find the fraction from a decimal number?
  c,'÷',d
 ∇
 ```
+```APL ⍳10000000``` is the largest before WS FULL (default settings)
+CAUTION: frac ○1 suggests that π is rational!
+
 - Alphabetise [[1]](#1-iverson-ke--1981-ip-sharp-associates)
 ```APL
 NAMES←↑'SMITH, R.J.' 'JONES, C.' 'ABEL, H.L.' 'SMITH, R.A.'
