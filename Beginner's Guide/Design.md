@@ -15,4 +15,4 @@ Simple examples taken from referenced sources
 - Alphabetize 
 
 ### References
-1. Iverson K.E. © 1981 I.P. Sharp Associates
+##### 1. Iverson K.E. © 1981 I.P. Sharp Associates
