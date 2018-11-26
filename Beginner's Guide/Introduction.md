@@ -33,7 +33,7 @@ As you can see, + (plus), × (times) and * (power) all do the same thing...
       2÷3
 0.6666666667
 ```
-Hold on there, stranger. 2÷3 is 
+Hold on there, stranger. 2÷3 is <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{2}{3}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{2}{3}" title="\frac{2}{3}" /></a>.
 
 Let's try something:
 ```APL
