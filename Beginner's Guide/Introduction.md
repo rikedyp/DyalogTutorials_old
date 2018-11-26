@@ -33,7 +33,17 @@ As you can see, + (plus), × (times) and * (power) all do the same thing...
       2÷3
 0.6666666667
 ```
-Hold on there, stranger. 2÷3 is <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{2}{3}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{2}{3}" title="\frac{2}{3}" /></a>.
+By default, Dyalog APL will output 10 decimal places, and calculations are performed with 16.  
+```⎕PP``` (Print Precision) gives the number of decimal places to be displayed in the interpreter. It is a variable which can be set:
+```APL
+      ⎕PP
+10
+      5÷7
+0.7142857143
+      ⎕PP←16
+      5÷7
+0.7142857142857143
+```
 
 Let's try something:
 ```APL
