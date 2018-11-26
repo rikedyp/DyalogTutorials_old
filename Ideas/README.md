@@ -1,6 +1,5 @@
 # Ideas for TutorialWS / Jupyter Notebook examples
 Ideas are listed below.  
-Key: *[To Do](#example)  
   
 - [Alphabetize](#alphabetize)
 - [Logarithms](#logarithms)
