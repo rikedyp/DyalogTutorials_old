@@ -1,6 +1,7 @@
 Beginner's Guide to Dyalog APL - Design Document
 
 [Introduction](#introduction)
+[Example Structure](#example-structure)
 [First Steps](#first-steps)
 [Keyboards and Input](#keyboards-and-input)
 
@@ -9,6 +10,20 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
 - Welcoming paragraph
 - Purpose and scope
 - How to navigate
+
+### Example Structure
+There will be:  
+- An ongoing introductory course for new users of Dyalog APL
+  - Video tutorial
+  - TutorialWS example + Jupyter notebook
+  - DyalogTutorials wiki entry
+    - References
+- Example projects / project walkthroughs
+  - Long form video of development
+  - Short from edited how-to / how-it-was-done
+  - Possibly TutorialWS example + Jupyter notebook
+  - DyalogTutorials wiki entry
+    - References
 
 ### First Steps
 - type a number
