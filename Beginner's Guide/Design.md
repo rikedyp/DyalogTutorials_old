@@ -1,8 +1,8 @@
 Beginner's Guide to Dyalog APL - Design Document
 
-[Introduction](#introduction)
-[First Steps](#first-steps)
-[Keyboards and Input](#keyboards-and-input)
+- [Introduction](#introduction)
+- [First Steps](#first-steps)
+- [Keyboards and Input](#keyboards-and-input)
 
 ### Introduction
 Entice the new user with a friendly outline - reflect the humour present in tutorials.dyalog.com
