@@ -4,6 +4,7 @@ This example is inspired by ViHart's [video on logarithms](https://www.youtube.c
 ### TODO
 - Clean up structure
 - Add narration
+- Play along with video timecode triggers / ⎕DL
 
 ### Code
 
