@@ -1,16 +1,22 @@
 {
 "PROMPTS":
     [   "Type 1+1 and press Enter...",
-        "'1 2 3 4 5 A B C'"
+        "Type '1 2 3 a b c'",
+        "2+2",
+        "2×2",
+        "2*2"
     ],
 "EXPECTS":
     [   ["1\\+1","^.*[-÷+×].*$"],
-        "'1 2 3 4 5 A B C'"
+        "'1 2 3 a b c'",
+        ["2+2","^.2*[+-×÷*]2$"],
+        ["2+2","^.2*[+-×÷*]2$"],
+        ["2+2","^.2*[+-×÷*]2$"]
     ],
 "RESPONSES":
     {
         "OK":       ["Yeah, or you could do that I suppose.",
-                    "Sure..."],
+                    "Sure why not?..."],
         "PERFECT":  ["Well done you!",
                     "Yessss!!!"],
         "WRONG":    ["Hmmmm...",

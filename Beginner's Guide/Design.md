@@ -1,6 +1,8 @@
 Beginner's Guide to Dyalog APL - Design Document
 
 [Introduction](#introduction)
+[First Steps](#first-steps)
+[Keyboards and Input](#keyboards-and-input)
 [Examples](#examples)
 [References](#references)
 
@@ -9,6 +11,15 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
 - Welcoming paragraph
 - Purpose and scope
 - How to navigate
+
+### First Steps
+- type a number
+- type some numbers
+- do some maths
+  - + - × ÷
+    - Click the symbol, ` backtick entry, keyboard layouts
+
+### Keyboards and Input
 
 ### Exercises
 Simple exercises
