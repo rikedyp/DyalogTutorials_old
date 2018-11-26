@@ -31,19 +31,36 @@ At any time, you are encouraged to play with the APL you learn. [1](#playing-wit
 3.2 3.4 3.6 3.8 4 4.2 4.4 4.6 4.8 5
 ```  
   
-So counting is pretty easy in APL, right? What's next?
+So counting is pretty easy in APL, right? What's next?  
+
+Functions in APL can be monadic (prefix) or dyadic (infix).
+```⍴``` is the Greek letter rho, its dyadic function is reshape.
+```APL
+      2 3 4⍴⍳2×3×4
+ 1  2  3  4
+ 5  6  7  8
+ 9 10 11 12
+           
+13 14 15 16
+17 18 19 20
+21 22 23 24
+```
+```⍴ VAR``` gives the shape of the variable VAR.  
+```N ⍴ VAR``` gives the N reshape of VAR.  
 ```APL
       LIST←⍳6
       TABLE←2 3 ⍴ LIST
-```
-
-```APL
       LIST×LIST
 1 4 9 16 25 36
       TABLE×TABLE
  1  4  9
 16 25 36
+      ⍴LIST
+6
+      ⍴TABLE
+2 3
 ```
+
 
 ### Playing with APL
 "I have long been struck by the contrast between the success with which the adventurous learn APL simply by using it, and the frequent failure of lecture courses to communicate the simplicity and applicability of the language." - Kenneth E. Iverson in A Working Introduction to APL © 1981 I.P. Sharp Associates
