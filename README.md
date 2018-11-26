@@ -1,7 +1,6 @@
 # Table of Contents
 1. [QuickStart](#quickstart)
 2. [This Project](#this-project)
-3. [ToDo](#todo)
 
 # QuickStart
 Download [Dyalog APL](https://www.dyalog.com/download-zone.htm) (Free for personal / non-commercial use)  
