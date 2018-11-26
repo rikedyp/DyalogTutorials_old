@@ -8,7 +8,32 @@ The terse syntax and lack of symbols can seem like tall hurdles when you are jus
 So let us not delay. [Download Dyalog APL](https://www.dyalog.com/download-zone.htm) and get started!
 
 Start Dyalog. You will be met with either the Ride (MacOS, Linux) or Windows interface.
-***Images here?***
+**Images here?**
+
+APL is A Programming Language designed by a mathematician. You can use it like a calculator:
+```APL
+      2+2
+4
+      2×2
+4
+      2*2
+4
+```
+As you can see, + (plus), × (times) and * (power) all do the same thing...  
+... well obviously not, but they work just like they do in mathematics.
+```APL
+      2+3
+5
+      2-3
+¯1
+      2×3
+6
+      2*3
+8
+      2÷3
+0.6666666667
+```
+Hold on there, stranger. 2÷3 is 
 
 Let's try something:
 ```APL
@@ -23,11 +48,11 @@ Dyalog APL starts counting (indexes) from 1 by default. We can change that:
 0 1 2 3 4 5 6 7 8 9
 ```
 The rest of these tutorials, unless stated otherwise, assume that ```⎕IO←1```  
-At any time, you are encouraged to play with the APL you learn. [1](#playing-with-apl)
+At any time, you are encouraged to play in the interpreter. [[1]](#playing-with-apl)
 ```APL
       .2×⍳10
 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2
-      3+.2×⍳10
+      3 + .2 × ⍳10
 3.2 3.4 3.6 3.8 4 4.2 4.4 4.6 4.8 5
 ```  
   
@@ -36,7 +61,7 @@ So counting is pretty easy in APL, right? What's next?
 Functions in APL can be monadic (prefix) or dyadic (infix).
 ```⍴``` is the Greek letter rho, its dyadic function is reshape.
 ```APL
-      2 3 4⍴⍳2×3×4
+      2 3 4 ⍴ ⍳2×3×4
  1  2  3  4
  5  6  7  8
  9 10 11 12
@@ -48,8 +73,8 @@ Functions in APL can be monadic (prefix) or dyadic (infix).
 ```⍴ VAR``` gives the shape of the variable VAR.  
 ```N ⍴ VAR``` gives the N reshape of VAR.  
 ```APL
-      LIST←⍳6
-      TABLE←2 3 ⍴ LIST
+      LIST ← ⍳6
+      TABLE ← 2 3 ⍴ LIST
       LIST×LIST
 1 4 9 16 25 36
       TABLE×TABLE
@@ -61,6 +86,14 @@ Functions in APL can be monadic (prefix) or dyadic (infix).
 2 3
 ```
 
-
+APL is an array programming language. It is specialised to make manipulating arrays straightforward and intuitive [[2]](#Array-languages). Let's play with arrays:   
+```APL
+      LT←LISTOFTABLES←2 3 4⍴⍳24
+```
+Now we introduct 3 new 
 ### Playing with APL
-"I have long been struck by the contrast between the success with which the adventurous learn APL simply by using it, and the frequent failure of lecture courses to communicate the simplicity and applicability of the language." - Kenneth E. Iverson in A Working Introduction to APL © 1981 I.P. Sharp Associates
+"I have long been struck by the contrast between the success with which the adventurous learn APL simply by using it, and the frequent failure of lecture courses to communicate the simplicity and applicability of the language."  
+- Kenneth E. Iverson in A Working Introduction to APL © 1981 I.P. Sharp Associates
+
+### Array Languages
+If you have come here with experience from other programming languages, the use of symbols may have stuck out as the major difference with APL. Another major difference is the focus on arrays. Where you may have to construct nested loops over array indices in other languages, in APL you do it all at once!
