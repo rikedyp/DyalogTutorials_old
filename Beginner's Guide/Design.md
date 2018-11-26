@@ -16,9 +16,11 @@ There will be:
 - An ongoing introductory course for new users of Dyalog APL
   - Video tutorial
   - TutorialWS example + Jupyter notebook
+  - .dyalog files as appropriate
   - DyalogTutorials wiki entry
     - References
 - Example projects / project walkthroughs
+  - .dyalog files OR project folder OR GitHub repo for the project
   - Long form video of development
   - Short from edited how-to / how-it-was-done
   - Possibly TutorialWS example + Jupyter notebook
