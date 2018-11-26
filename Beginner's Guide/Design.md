@@ -29,7 +29,7 @@ There will be:
 - type a number
 - type some numbers
 - do some maths
-  - + - × ÷
+  - × ÷ + -
     - Click the symbol, ` backtick entry, [keyboard layouts](#keyboards-and-input)
 
 ### Keyboards and Input
