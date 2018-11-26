@@ -1,5 +1,5 @@
 ## First steps into Dyalog APL
-This document presumes you have installed Dyalog APL. If not, [click here]() to get Dyalog APL (free for personal / non-commercial use)
+This document presumes you have installed Dyalog APL. If not, [click here]() to get Dyalog APL (free for personal / non-commercial use).
 
 Start Dyalog. You will be met with either the Ride (MacOS, Linux) or Windows interface.
 **Images here?**
