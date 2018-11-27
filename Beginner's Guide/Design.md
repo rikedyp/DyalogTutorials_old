@@ -11,8 +11,7 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
 - Purpose and scope
 - How to navigate
 
-### Example Structure
-There will be:  
+### Example Structure 
 - An ongoing introductory course for new users of Dyalog APL
   - Video tutorial
   - TutorialWS example + Jupyter notebook
