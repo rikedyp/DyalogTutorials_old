@@ -5,20 +5,20 @@
  Has←{×≢⍵ ⎕S 0⊢⍺}
 
  Gives←{
-     patterns←,⍵
+     patterns←,⊆⍵
      ⎕←⍺
-     input←⍞
+     input←{⍞←⍵ ⋄ (≢⍵)↓⍞}'       '
      '→'∊input:0
      input Has⊃patterns:PERFECT ReactionTo input
-     input Has⊃1↓patterns:OK ReactionTo input
+     input Has 1↓patterns:OK ReactionTo input
      ⎕←Random WRONG
      ⍺ ∇ ⍵
  }
  :For i :In ⍳⍴PROMPT
-     :If (⊃i⌷PROMPT)Gives i⌷EXPECTED
+     :If (⊃i⌷PROMPT)Gives⊃i⌷EXPECTED
      :AndIf 1
-         ⎕←'Well done!'
+         ⎕←''
      :Else
-         ⎕←'Bye!'
+         ⎕←'Bye!' ⋄ :Leave
      :EndIf
  :EndFor

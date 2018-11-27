@@ -1,17 +1,21 @@
 {
 "PROMPTS":
-    [   "Type 1+1 and press Enter...",
-        "Type '1 2 3 a b c'",
-        "2+2",
-        "2×2",
-        "2*2"
+    [   " Type a number and press Enter...",
+        "You get out what you put in, no?\n Type 1+1 and press Enter...",
+        " Let's try 2+2:",
+        " 2*2?",
+        "Another example, to be clear:\n Input 2+3:",
+        "Plus (+) works as you'd expect.\n Input 2*3:",
+        "That's not 2×3=6? Nope. \nIn APL, we use the × symbol (not x) for \"times\". This can be found in the language bar above, or by typing [`-] (backtick minus).\n\n Now input 2×3:"
     ],
 "EXPECTS":
-    [   ["1\\+1","^.*[-÷+×].*$"],
-        "'1 2 3 a b c'",
+    [   "^[0-9]*$",
+        ["1\\+1","^.*[-÷+×].*$"],
         ["2\\+2","^.2*[+-×÷*]2$"],
-        ["2\\×2","^.2*[+-×÷*]2$"],
-        ["2\\*2","^.2*[+-×÷*]2$"]
+        ["2\\*2","^.2*[+-×÷*]2$"],
+        "2\\+3",
+        "2\\*3",
+        "2\\×3"
     ],
 "RESPONSES":
     {

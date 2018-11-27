@@ -30,8 +30,25 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
 - type a number
 - type some numbers
 - do some maths
-  - × ÷ + -
+  - + × 
     - Click the symbol, ` backtick entry, [keyboard layouts](#keyboards-and-input)
+  - 2÷3
+    - only 10 most significant digits displayed
+    - 200000÷3
+    - ⎕PP
+    - ⎕FR
+- Monadic / Dyadic functions
+  - -3, ¯3, ÷3
+    - 2-5
+    - -2×5 | ¯2×5 | 5-2×5 | 5¯2×5
+      - SYNTAX ERROR
+    - 2-¯3 | -2-¯3
+  - ÷3 | ÷2 | ÷1 | ÷0
+    - DOMAIN ERROR
+  - 5÷5 | 5÷0 | 0÷5 | 0÷0
+    - Any number divided by itself is 1, though the result could just as well have been 0 or DOMAIN ERROR. In Dyalog APL, the result is 1 (though there's a way to change this if it really upsets you). 
 
 ### Keyboards and Input
-
+- The language bar
+- `- (backtick minus)
+- Keyboard input
