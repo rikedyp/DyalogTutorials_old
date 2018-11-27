@@ -3,6 +3,9 @@ Beginner's Guide to Dyalog APL - Design Document
 - [Introduction](#introduction)  
 - [Example Structure](#example-structure)  
 - [First Steps](#first-steps)  
+- [Arrays](#arrays)
+- [Data Representation](#data-representation)
+- [Maths](#maths)
 - [Execution Order](#execution-order)  
 - [Basic Functions and Variables](#basic-functions-and-variables)  
 - [Keyboards and Input](#keyboards-and-input)  
@@ -36,12 +39,6 @@ Start Dyalog. You will be met with either the Ride (MacOS, Linux) or Windows int
 - do some maths
   - + × 
     - Click the symbol, ` backtick entry, [keyboard layouts](#keyboards-and-input)
-  - 2÷3
-    - only 10 most significant digits displayed
-    - 200000÷3
-    - ⎕PP
-      - 5÷7 | ⎕PP←16
-    - ⎕FR
 - Monadic / Dyadic functions
   - -3, ¯3, ÷3
     - 2-5
@@ -52,7 +49,8 @@ Start Dyalog. You will be met with either the Ride (MacOS, Linux) or Windows int
     DOMAIN ERROR
   - 5÷5 | 5÷0 | 0÷5 | 0÷0
     - Any number divided by itself is 1, though the result could just as well have been 0 or DOMAIN ERROR. In Dyalog APL, the result is 1 (though there's a way to change this if it really upsets you). 
-- Arrays
+
+### Arrays
   - ⍳10
   - ⎕IO
   - 1 2 3 × 1 2 3 4 
@@ -94,6 +92,23 @@ Functions in APL can be monadic (prefix) or dyadic (infix).
 APL is an array programming language. It is specialised to make manipulating arrays straightforward and intuitive [[2]](#Array-languages). Let's play with arrays:   
 ```APL
       LT←LISTOFTABLES←2 3 4⍴⍳24
+```
+
+### Data Represenation
+- 2÷3
+  - only 10 most significant digits displayed
+  - 200000÷3
+  - ⎕PP
+    - 5÷7 | ⎕PP←16
+  - ⎕FR
+  - Scientific Notation
+
+### Maths
+- ⌈ ⌊ | 
+- +/, ×/, ⌈/ etc.
+- +\, ×\ etc.
+- Date example
+```APL
 ```
 
 ### Execution Order
