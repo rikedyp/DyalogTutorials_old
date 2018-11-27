@@ -109,3 +109,6 @@ APL is an array programming language. It is specialised to make manipulating arr
 ### Playing with APL
 "I have long been struck by the contrast between the success with which the adventurous learn APL simply by using it, and the frequent failure of lecture courses to communicate the simplicity and applicability of the language."  
 - Kenneth E. Iverson in A Working Introduction to APL © 1981 I.P. Sharp Associates
+
+### Array Languages
+If you have come here with experience from other programming languages, the use of symbols may have stuck out as the major difference with APL. Another major difference is the focus on arrays. Where you may have to construct nested loops over array indices in other languages, in APL you do it all at once!
