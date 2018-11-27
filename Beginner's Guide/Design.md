@@ -27,6 +27,8 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
     - References
 
 ### First Steps
+Start Dyalog. You will be met with either the Ride (MacOS, Linux) or Windows interface.
+**Images here?**
 - type a number
 - type some numbers
 - do some maths
@@ -48,7 +50,7 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
     - DOMAIN ERROR
   - 5÷5 | 5÷0 | 0÷5 | 0÷0
     - Any number divided by itself is 1, though the result could just as well have been 0 or DOMAIN ERROR. In Dyalog APL, the result is 1 (though there's a way to change this if it really upsets you). 
-- arrays
+- Arrays
   - ⍳10
   - ⎕IO
 The rest of these tutorials, unless stated otherwise, assume that ```⎕IO←1```  
