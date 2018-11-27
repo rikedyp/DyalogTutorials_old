@@ -48,7 +48,18 @@ Entice the new user with a friendly outline - reflect the humour present in tuto
   - 5÷5 | 5÷0 | 0÷5 | 0÷0
     - Any number divided by itself is 1, though the result could just as well have been 0 or DOMAIN ERROR. In Dyalog APL, the result is 1 (though there's a way to change this if it really upsets you). 
 
+### Variables
+- 
+- +← (plus gets)
+- ,← (catenate gets)
+
 ### Keyboards and Input
 - The language bar
 - `- (backtick minus)
 - Keyboard input
+  - Linux
+    - start Dyalog
+    - setxkbmap gb,apl -option grp:win_switch
+  - MacOS
+    - Check: same as linux?
+  - Windows
