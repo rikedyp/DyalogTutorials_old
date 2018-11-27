@@ -3,6 +3,8 @@ Beginner's Guide to Dyalog APL - Design Document
 *[Introduction](#introduction)
 *[Example Structure](#example-structure)
 *[First Steps](#first-steps)
+*[Execution Order](#execution-order)
+*[Basic Functions and Variables](#basic-functions-and-variables)
 *[Keyboards and Input](#keyboards-and-input)
 
 ### Introduction
@@ -44,15 +46,17 @@ Start Dyalog. You will be met with either the Ride (MacOS, Linux) or Windows int
   - -3, ¯3, ÷3
     - 2-5
     - -2×5 | ¯2×5 | 5-2×5 | 5¯2×5
-      - SYNTAX ERROR
+      SYNTAX ERROR
     - 2-¯3 | -2-¯3
   - ÷3 | ÷2 | ÷1 | ÷0
-    - DOMAIN ERROR
+    DOMAIN ERROR
   - 5÷5 | 5÷0 | 0÷5 | 0÷0
     - Any number divided by itself is 1, though the result could just as well have been 0 or DOMAIN ERROR. In Dyalog APL, the result is 1 (though there's a way to change this if it really upsets you). 
 - Arrays
   - ⍳10
   - ⎕IO
+  - 1 2 3 × 1 2 3 4 
+  LENGTH ERROR
 The rest of these tutorials, unless stated otherwise, assume that ```⎕IO←1```  
 At any time, you are encouraged to play in the interpreter. [[1]](#playing-with-apl)
   - .2 × ⍳10
@@ -91,6 +95,10 @@ APL is an array programming language. It is specialised to make manipulating arr
 ```APL
       LT←LISTOFTABLES←2 3 4⍴⍳24
 ```
+
+### Execution Order
+- +-×÷
+- () parentheses
 
 ### Basic Functions and Variables
 - 
