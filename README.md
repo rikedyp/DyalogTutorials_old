@@ -18,5 +18,5 @@ DyalogTutorials aims to condense tutorials and work of interest to new users int
 - [TutorialWS](/TutorialWS)
 
 # Resources
-There are many resources available to help learn APL. Some of them are referenced in DyalogTutorials. Many of them are listed [here](Resources.md)
+There are many resources available to help learn APL. Some of them are referenced in DyalogTutorials. Many of them are listed [here](Resources.md).
 
