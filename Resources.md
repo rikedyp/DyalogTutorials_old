@@ -6,6 +6,7 @@
 - [A Short Intro to APL](https://www.whoishostingthis.com/resources/apl/)
 - [APLWiki](https://aplwiki.com/)
 - [APLWiki list of Books and Publications](https://aplwiki.com/BooksAndPublications)
-- [Mastering Dyalog APL](https://www.dyalog.com/mastering-dyalog-apl.htm)
+- [Mastering Dyalog APL](https://www.dyalog.com/mastering-dyalog-apl.htm)  
+[Michael Haupt](https://github.com/mhaupt) seems to have gone through the book and presents his results in this [GitHub repository](https://github.com/mhaupt/mastering_dyalog_apl)
 - [TryAPL](http://tryAPL.org)
 - [Tutorial](https://tutorial.dyalog.com/)
