@@ -10,3 +10,4 @@
 [Michael Haupt](https://github.com/mhaupt) seems to have gone through the book and presents his results in this [GitHub repository](https://github.com/mhaupt/mastering_dyalog_apl)
 - [TryAPL](http://tryAPL.org)
 - [Tutorial](https://tutorial.dyalog.com/)
+- [Stack Exchange Lessons](https://chat.stackexchange.com/rooms/info/52405/the-apl-orchard?tab=conversations)
