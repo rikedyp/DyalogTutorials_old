@@ -1,7 +1,7 @@
 # DyalogTutorials Jupyter Notebooks
 These notebooks include explanations and code to help you learn Dyalog / APL.  
 
-More Dyalog Jupyter Notebooks are available [here](https://github.com/Dyalog/dyalog-jupyter-notebooks)
+__More Dyalog Jupyter Notebooks are available [here](https://github.com/Dyalog/dyalog-jupyter-notebooks)__
 
 Click on a notebook to view it - GitHub renders notebooks fairly well.  
 However, sometimes multi-line APL output renders incorrectly.  
