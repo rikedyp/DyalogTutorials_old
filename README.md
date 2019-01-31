@@ -5,7 +5,7 @@ This is the place to find up to date tutorials and new user guides for Dyalog AP
 # Table of Contents
 1. [QuickStart](#quickstart)
 2. [This Project](#this-project)
-3. [Resources](#resources)
+3. [Resources](https://github.com/rikedyp/DyalogTutorials/wiki/Resources)
 
 # QuickStart
 1. Download [Dyalog APL](https://www.dyalog.com/download-zone.htm) (Free for personal / non-commercial use)  
@@ -19,7 +19,3 @@ This is the place to find up to date tutorials and new user guides for Dyalog AP
 DyalogTutorials aims to condense tutorials and work of interest to new users into a single set of guides. These consist of:
 - [The Beginner's Guide to Dyalog APL](https://github.com/rikedyp/DyalogTutorials/tree/master/Beginner's%20Guide)
 - [TutorialWS](/TutorialWS)
-
-# Resources
-There are many resources available to help learn APL. Some of them are referenced in DyalogTutorials. Many of them are listed [here](Resources.md).
-
